@@ -7,7 +7,8 @@ from gtts import gTTS
 from playsound import playsound
 
 def _process_chunk(chunk):
-    return []
+    print("inside chunk")
+    lines = chunk.split["\n"]
 
 def text_to_speech(message: str, language = "en"):
 
