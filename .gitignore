@@ -3,3 +3,4 @@ __pycache__/
 .DS_Store
 audio_files/
 env.py
+output.mp3
